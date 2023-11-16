@@ -1,6 +1,8 @@
 # h4ck3r
 
-## nmap
+## Scan Tools
+
+### nmap
 
 Options:
 
@@ -18,10 +20,24 @@ nmap <options> <ip>
 nmap -p- <options> <ip>
 ```
 
-## gobuster
+### massscan
+
+```bash
+masscan -p1-65535,U:1-65535 <ip> --rate=1000 -e tun0
+```
+
+### gobuster
 
 ```bash
 gobuster dir -u <http://ip> -w /usr/share/dirbuster/wordlists/<directory-list.txt> -x <.ext>
+```
+
+## Passwords Tools
+
+## Ansible
+
+```bash
+ansible2john <file>
 ```
 
 ## websites
