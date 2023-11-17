@@ -44,6 +44,10 @@ msfconsole
 
 - [linpeas.sh](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS): Linux Privilege Escalation Awesome Script
 
+- [FullPowers](https://github.com/itm4n/FullPowers): Windows - Recover the default privilege set of a LOCAL/NETWORK SERVICE account
+
+- [GodPotato](https://github.com/BeichenDream/GodPotato): Windows - Potato privilege escalation
+
 ## Websites
 
 - [OWASP](https://owasp.org)
