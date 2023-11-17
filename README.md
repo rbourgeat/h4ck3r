@@ -32,22 +32,28 @@ masscan -p1-65535,U:1-65535 <ip> --rate=1000 -e tun0
 gobuster dir -u <http://ip> -w /usr/share/dirbuster/wordlists/<directory-list.txt> -x <.ext>
 ```
 
-## Passwords Tools
+## Exploit Tools
 
-## Ansible
+### Metasploit
 
 ```bash
-ansible2john <file>
+msfconsole
 ```
 
-## websites
+## Scripts
+
+- [linpeas.sh](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS): Linux Privilege Escalation Awesome Script
+
+## Websites
 
 - [OWASP](https://owasp.org)
 
 - [HackTricks](https://book.hacktricks.xyz)
 
-## tools
+- [Crowd Strike](https://www.crowdstrike.com/blog/)
+
+## Tools
 
 - [Burp Suite](https://portswigger.net/burp/communitydownload): Web penetration testing
 
-- [wappalyzer](https://www.wappalyzer.com/apps/): web site analysis
+- [wappalyzer](https://www.wappalyzer.com/apps/): Web site analysis
