@@ -61,3 +61,5 @@ msfconsole
 - [Burp Suite](https://portswigger.net/burp/communitydownload): Web penetration testing
 
 - [wappalyzer](https://www.wappalyzer.com/apps/): Web site analysis
+
+- [Hex Rays IDA](https://hex-rays.com/ida-free): Reverse engineer tool
