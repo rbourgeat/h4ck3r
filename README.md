@@ -32,12 +32,26 @@ masscan -p1-65535,U:1-65535 <ip> --rate=1000 -e tun0
 gobuster dir -u <http://ip> -w /usr/share/dirbuster/wordlists/<directory-list.txt> -x <.ext>
 ```
 
+### dirsearch
+
+```bash
+dirsearch -u <hostname>
+```
+
 ## Exploit Tools
 
 ### Metasploit
 
 ```bash
 msfconsole
+```
+
+## Passwords Tools
+
+### hashcat
+
+```bash
+hashcat -a 0 -m 3200 hash.txt /usr/share/wordlists/rockyou.txt.gz
 ```
 
 ## Scripts
