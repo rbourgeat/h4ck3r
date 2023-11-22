@@ -64,6 +64,10 @@ hashcat -a 0 -m 3200 hash.txt /usr/share/wordlists/rockyou.txt.gz
 
 - [bloodyAD](https://github.com/CravateRouge/bloodyAD): Windows - Active Directory Privilege Escalation Framework
 
+- [pspy](https://github.com/DominicBreuker/pspy): Linux - Monitor processes without root permissions 
+
+- [PassTheCert](https://github.com/AlmondOffSec/PassTheCert): Windows - LDAP certificate authentication
+
 ## Websites
 
 - [OWASP](https://owasp.org)
