@@ -54,6 +54,17 @@ msfconsole
 hashcat -a 0 -m 3200 hash.txt /usr/share/wordlists/rockyou.txt.gz
 ```
 
+## Network Tools
+
+### [chisel](https://github.com/jpillora/chisel)
+
+```bash
+# Server:
+./chisel server -p 1234 --reverse
+# Client:
+ ./chisel client <ip>:1234 R:<port>:127.0.0.1:<port>
+```
+
 ## Scripts
 
 - [linpeas.sh](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS): Linux Privilege Escalation Awesome Script
