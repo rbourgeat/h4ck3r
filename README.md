@@ -62,6 +62,8 @@ hashcat -a 0 -m 3200 hash.txt /usr/share/wordlists/rockyou.txt.gz
 
 - [GodPotato](https://github.com/BeichenDream/GodPotato): Windows - Potato privilege escalation
 
+- [bloodyAD](https://github.com/CravateRouge/bloodyAD): Windows - Active Directory Privilege Escalation Framework
+
 ## Websites
 
 - [OWASP](https://owasp.org)
